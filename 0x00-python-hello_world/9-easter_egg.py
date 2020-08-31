@@ -1,2 +1,2 @@
-#!/usr/bin/paython3
-print("{},{}.format("The Zen of Python,","by TimPeters"))
+#!/usr/bin/python3
+import this

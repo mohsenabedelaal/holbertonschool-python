@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-for i in range (97,123):     
-    if chr(i) != 'q' or chr(i) != 'e':
-        print(chr(i),end="")
+print(*["%c" % a for a in range(ord('a'), ord ('z') + 1) if a not in (ord('e'), (ord('q'))], sep='', end='')

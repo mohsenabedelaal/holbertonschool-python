@@ -2,7 +2,6 @@
 for i in range (0 , 99) :
     if i != 98 :
         print("{0:0=2d}".format(i) , end = ", ")
-    else:
-        print(i)
-
+    else :
+        print( i )
     

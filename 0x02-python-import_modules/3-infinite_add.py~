@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import sys
+
+
+def cal_arg(arg):
+    result = 0
+    for i in range(1, len(arg)):
+        result = result + arg[i]
+    print(result)
+if __name__ == '__main__':
+    cal_arg(sys.argv)
+
+        

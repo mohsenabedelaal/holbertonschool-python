@@ -28,6 +28,10 @@ class Square():
         else:
             self.__size = value
 
-    def area(self):
-        """Function That Returns the square area of the Square"""
-        return self.__size * self.__size
+    def my_print(self):
+        """print out the square"""
+        if self.__size == 0:
+            print()
+        else:
+            for i in range(self.__size):
+                print("#" * self.__size)

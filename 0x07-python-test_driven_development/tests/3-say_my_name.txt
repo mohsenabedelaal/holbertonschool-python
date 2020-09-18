@@ -1,0 +1,27 @@
+The ``say my name`` module
+======================
+
+Using ``say_my_name``
+-------------------
+
+This is an text file in reStructuredText format.  First import
+``say_my_name`` from the ``3-say_my_name`` module:
+
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Now use it:
+
+    >>> say_my_name("John", "Smith")
+    My name is John Smith
+    
+    >>> say_my_name("Walter", "White")
+    My name is Walter White
+    
+    >>> say_my_name("Bob")
+    My name is Bob
+
+    >>> say_my_name(12, "White")
+    first_name must be a string
+
+    >>> say_my_name("White", 12)
+    last_name must be a string

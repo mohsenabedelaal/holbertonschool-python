@@ -1,0 +1,1 @@
+#rint('{:s}'.format(chr(i)), end='')
